@@ -1,0 +1,10 @@
+--- st.c
++++ st.c
+@@ -205,6 +210,7 @@ static void tdefutf8(char);
+ static int32_t tdefcolor(const int *, int *, int);
+ static void tdeftran(char);
+ static void tstrsequence(uchar);
++static int daddch(URLdfa *, char);
+ 
+ static void drawregion(int, int, int, int);
+ 
