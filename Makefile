@@ -31,6 +31,7 @@ st: $(OBJ)
 
 clean:
 	rm -f st $(OBJ) st-$(VERSION).tar.gz
+	mv config.h config.def.h
 
 dist: clean
 	mkdir -p st-$(VERSION)
